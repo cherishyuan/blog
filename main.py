@@ -11,7 +11,7 @@ MD_HEAD = """**<p align="center">[Yuquan's Blog](https://blog.leeyom.top)</p>**
 ====
 
 **<p align="center">用于记录自己CodingWay</p>**
-[![](https://user-images.githubusercontent.com/22115219/149507985-22e22223-4644-47bf-abf9-c388c287cc38.JPEG)](https://blog.leeyom.top)
+[![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/wallhaven-l3k330.png)](https://cherishyuan.github.io)
 
 ## 联系方式
 - Twitter：[@Pillow_Rainbow](https://twitter.com/Pillow_Rainbow)
