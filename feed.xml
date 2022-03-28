@@ -1,3 +1,246 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-03-28T11:00:16.481570+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/1</id><title>技术相关</title><updated>2022-03-28T11:00:16.697649+00:00</updated><content type="html"><![CDATA[<p>Emoji表情的语法速查表</p>
-]]></content><link href="https://github.com/cherishyuan/blog/issues/1" rel="alternate"/><published>2022-03-28T09:10:35+00:00</published></entry></feed>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-03-28T11:13:13.411910+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/2</id><title>Git、Tmux、vim快捷键</title><updated>2022-03-28T11:13:13.674318+00:00</updated><content type="html"><![CDATA[<h1>快捷键</h1>
+<h2>git commit 时 图标使用 — emoji 指南</h2>
+<table>
+<thead>
+<tr>
+<th align="center">emoji 表情</th>
+<th align="center">emoji 代码</th>
+<th align="center">commit 说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">🎨 (调色板)</td>
+<td align="center"><code>:art:</code></td>
+<td align="center">改进代码结构/代码格式</td>
+</tr>
+<tr>
+<td align="center">⚡ (闪电) 🐎 (赛马)</td>
+<td align="center"><code>:zap:</code> <code>:racehorse:</code></td>
+<td align="center">提升性能</td>
+</tr>
+<tr>
+<td align="center">🔥 (火焰)</td>
+<td align="center"><code>:fire:</code></td>
+<td align="center">移除代码或文件</td>
+</tr>
+<tr>
+<td align="center">🐛 (bug)</td>
+<td align="center"><code>:bug:</code></td>
+<td align="center">修复 bug</td>
+</tr>
+<tr>
+<td align="center">🚑 (急救车)</td>
+<td align="center"><code>:ambulance:</code></td>
+<td align="center">重要补丁</td>
+</tr>
+<tr>
+<td align="center">✨ (火花)</td>
+<td align="center"><code>:sparkles:</code></td>
+<td align="center">引入新功能</td>
+</tr>
+<tr>
+<td align="center">📝 (备忘录)</td>
+<td align="center"><code>:memo:</code></td>
+<td align="center">撰写文档</td>
+</tr>
+<tr>
+<td align="center">🚀 (火箭)</td>
+<td align="center"><code>:rocket:</code></td>
+<td align="center">部署功能</td>
+</tr>
+<tr>
+<td align="center">💄 (口红)</td>
+<td align="center"><code>:lipstick:</code></td>
+<td align="center">更新 UI 和样式文件</td>
+</tr>
+<tr>
+<td align="center">🎉 (庆祝)</td>
+<td align="center"><code>:tada:</code></td>
+<td align="center">初次提交</td>
+</tr>
+<tr>
+<td align="center">✅ (白色复选框)</td>
+<td align="center"><code>:white_check_mark:</code></td>
+<td align="center">增加测试</td>
+</tr>
+<tr>
+<td align="center">🔒 (锁)</td>
+<td align="center"><code>:lock:</code></td>
+<td align="center">修复安全问题</td>
+</tr>
+<tr>
+<td align="center">🍎 (苹果)</td>
+<td align="center"><code>:apple:</code></td>
+<td align="center">修复 macOS 下的内容</td>
+</tr>
+<tr>
+<td align="center">🐧 (企鹅)</td>
+<td align="center"><code>:penguin:</code></td>
+<td align="center">修复 Linux 下的内容</td>
+</tr>
+<tr>
+<td align="center">🏁 (旗帜)</td>
+<td align="center"><code>:checked_flag:</code></td>
+<td align="center">修复 Windows 下的内容</td>
+</tr>
+<tr>
+<td align="center">🤖 (Android机器人)</td>
+<td align="center"><code>:robot:</code></td>
+<td align="center">修复Android上的某些内容。</td>
+</tr>
+<tr>
+<td align="center">🍏 (绿苹果)</td>
+<td align="center"><code>:green_apple:</code></td>
+<td align="center">解决iOS上的某些问题。</td>
+</tr>
+<tr>
+<td align="center">🔖 (书签)</td>
+<td align="center"><code>:bookmark:</code></td>
+<td align="center">发行/版本标签</td>
+</tr>
+<tr>
+<td align="center">🚨 (警车灯)</td>
+<td align="center"><code>:rotating_light:</code></td>
+<td align="center">移除 linter 警告</td>
+</tr>
+<tr>
+<td align="center">🚧 (施工)</td>
+<td align="center"><code>:construction:</code></td>
+<td align="center">工作进行中</td>
+</tr>
+<tr>
+<td align="center">💚 (绿心)</td>
+<td align="center"><code>:green_heart:</code></td>
+<td align="center">修复 CI 构建问题</td>
+</tr>
+<tr>
+<td align="center">⬇️ (下降箭头)</td>
+<td align="center"><code>:arrow_down:</code></td>
+<td align="center">降级依赖</td>
+</tr>
+<tr>
+<td align="center">⬆️ (上升箭头)</td>
+<td align="center"><code>:arrow_up:</code></td>
+<td align="center">升级依赖</td>
+</tr>
+<tr>
+<td align="center">📌 (图钉)</td>
+<td align="center"><code>:pushpin:</code></td>
+<td align="center">将依赖关系固定到特定版本。</td>
+</tr>
+<tr>
+<td align="center">👷 (工人)</td>
+<td align="center"><code>:construction_worker:</code></td>
+<td align="center">添加 CI 构建系统</td>
+</tr>
+<tr>
+<td align="center">📈 (上升趋势图)</td>
+<td align="center"><code>:chart_with_upwards_trend:</code></td>
+<td align="center">添加分析或跟踪代码</td>
+</tr>
+<tr>
+<td align="center">♻️ (循环箭头)</td>
+<td align="center"><code>:recycle:</code></td>
+<td align="center">重构代码。</td>
+</tr>
+<tr>
+<td align="center">🔨 (锤子)</td>
+<td align="center"><code>:hammer:</code></td>
+<td align="center">重大重构</td>
+</tr>
+<tr>
+<td align="center">➖ (减号)</td>
+<td align="center"><code>:heavy_minus_sign:</code></td>
+<td align="center">减少一个依赖</td>
+</tr>
+<tr>
+<td align="center">🐳 (鲸鱼)</td>
+<td align="center"><code>:whale:</code></td>
+<td align="center">Docker 相关工作</td>
+</tr>
+</tbody></table><h2>电脑快捷键</h2>
+<ol>
+<li>使用emoji：Win+；</li>
+<li>创建虚拟桌面：Win+Ctrl+D				    											切换桌面Win+Ctrl+←/→</li>
+<li>快速锁定屏幕：Win+L</li>
+<li>应用切换：Alt+Tab或者Win+Tab</li>
+<li>应用程序分屏：Win+←/→</li>
+<li>剪贴板功能：Win+V
+截图功能Win+Shift+S</li>
+<li>新建：Ctrl+N</li>
+<li>鼠标复制文件：Ctrl+鼠标拖动</li>
+<li>快速关闭网页：Ctrl+W
+恢复网页Ctrl+Shift+T</li>
+<li>返回桌面：Win+D</li>
+<li>运行：Win+R
+自动关机：shutdown -s -t XX
+取消自动关机：shutdown -a</li>
+<li>搜索功能：Win+S</li>
+<li>投屏：Win+P
+蓝牙连接：Win+K</li>
+<li>快速关机：Win+X+U+U</li>
+<li>任务管理器：Ctrl+Alt+./Delete或者Ctrl+Shift+ESC</li>
+<li>截屏：Ctrl+Shift+S</li>
+<li>
+</li>
+</ol>
+<h2>Tmux的快捷键</h2>
+<p><img src="https://gitee.com/xu-yuquan/picture-markdown/raw/master/tnux%E5%BF%AB%E6%8D%B7%E9%94%AE.png" alt="" /></p>
+<h2>vimuim快捷键</h2>
+<h3>移动</h3>
+<p>按键</p>
+<p>功能</p>
+<p>j</p>
+<p>向下移动</p>
+<p>k</p>
+<p>向上移动</p>
+<p>h</p>
+<p>向左移动</p>
+<p>l</p>
+<p>向右移动</p>
+<h3>跳转</h3>
+<p>按键</p>
+<p>功能</p>
+<p>gg</p>
+<p>跳转到页面的底部</p>
+<p>G</p>
+<p>跳转到页面的底部</p>
+<p>d</p>
+<p>向下翻页</p>
+<p>u</p>
+<p>向上翻页</p>
+<p>r</p>
+<p>重新载入</p>
+<p>gu</p>
+<p>跳转到父页面</p>
+<p>yy</p>
+<p>拷贝当前页面的URL到剪贴板</p>
+<p>yf</p>
+<p>拷贝某一个URL到剪贴板</p>
+<h3>导航历史</h3>
+<p>按键</p>
+<p>功能</p>
+<p>H</p>
+<p>回退上一个历史页面（相当于浏览器中的向左箭头）</p>
+<p>L</p>
+<p>回到下一个历史页面（相当于浏览器的向右箭头）</p>
+<h3>标签页操作</h3>
+<p>按键</p>
+<p>功能</p>
+<p>K, gt</p>
+<p>跳转到右边的一个标签页</p>
+<p>J, gT</p>
+<p>跳转到左边的一个标签页</p>
+<p>t</p>
+<p>创建一个新的标签页</p>
+<p>x</p>
+<p>关闭当前的标签页</p>
+<p>X</p>
+<p>恢复刚刚关闭的标签页</p>
+<p>?</p>
+<p>显示命令的帮助提示（再按一次关闭）</p>
+<h2>Git的使用</h2>
+<p>![[Git命令.png]]</p>
+]]></content><link href="https://github.com/cherishyuan/blog/issues/2" rel="alternate"/><category term="技术相关"/><published>2022-03-28T11:10:20+00:00</published></entry></feed>
