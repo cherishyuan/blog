@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-03-28T11:33:05.404652+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/2</id><title>Git、Tmux、vim快捷键</title><updated>2022-03-28T11:33:05.636963+00:00</updated><content type="html"><![CDATA[<h1>快捷键</h1>
-<h2>git commit 时 图标使用 — emoji 指南</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-03-28T12:22:42.826251+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/2</id><title>Git、Tmux、vim快捷键</title><updated>2022-03-28T12:22:43.088301+00:00</updated><content type="html"><![CDATA[<h1>快捷键</h1>
+<h2>git commit 图标使用 — emoji 指南</h2>
 <table>
 <thead>
 <tr>
