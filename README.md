@@ -7,7 +7,7 @@
 ## 联系方式
 - Twitter：[@Pillow_Rainbow](https://twitter.com/Pillow_Rainbow)
 - Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
-- Email：[xuyuquan713@163.com](mailto:xuyuquan713@163.com)
+- Email：[xu.yuquan@outlook.com](mailto:xu.yuquan@outlook.com)
 - Blog：[https://zhiyuquan.top](https://zhiyuquan.top)
 - RSS：[RSS Feed](https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml)
 ## 最近更新
