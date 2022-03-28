@@ -1,8 +1,8 @@
-**<p align="center">[Yuquan's Blog](https://blog.leeyom.top)</p>**
+**<p align="center">[Yuquan's Blog](https://cherishyuan.github.io)</p>**
 ====
 
 **<p align="center">用于记录自己CodingWay</p>**
-[![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/wallhaven-l3k330.png)](https://cherishyuan.github.io)
+[![](![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/index.jpg))](https://cherishyuan.github.io)
 
 ## 联系方式
 - Twitter：[@Pillow_Rainbow](https://twitter.com/Pillow_Rainbow)
