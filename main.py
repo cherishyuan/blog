@@ -14,10 +14,10 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 [![](https://user-images.githubusercontent.com/22115219/149507985-22e22223-4644-47bf-abf9-c388c287cc38.JPEG)](https://blog.leeyom.top)
 
 ## 联系方式
-- Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
-- Telegram：[@super_leeyom](https://t.me/super_leeyom)
-- Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
-- Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
+- Twitter：[@Pillow_Rainbow](https://twitter.com/Pillow_Rainbow)
+- Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
+- Email：[xuyuquan713@163.com](mailto:xuyuquan713@163.com)
+- Blog：[https://zhiyuquan.top](https://zhiyuquan.top)
 - RSS：[RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
