@@ -6,7 +6,7 @@
 
 ## 联系方式
 - Twitter：[@Cherishjuzi](https://twitter.com/Cherishjuzi)
-- Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
+#- Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
 - Email：[xu.yuquan@outlook.com](mailto:xu.yuquan@outlook.com)
 - Blog：[https://zhiyuquan.top](https://zhiyuquan.top)
 - RSS：[RSS Feed](https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml)
