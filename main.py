@@ -13,7 +13,7 @@ MD_HEAD = """**<p align="center">[Yuquan's Blog](https://cherishyuan.github.io)<
 **<p align="center">用于记录自己CodingWay</p>**
 [![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/index.jpg)](https://cherishyuan.github.io)
 
-## 联系方式 :memo:
+## 联系方式
 - Twitter：[@Cherishjuzi](https://twitter.com/Cherishjuzi)
 - Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
 - Email：[xu.yuquan@outlook.com](mailto:xu.yuquan@outlook.com)
