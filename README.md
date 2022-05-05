@@ -5,7 +5,7 @@
 [![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/index.jpg)](https://cherishyuan.github.io)
 
 ## 联系方式
-- Twitter：[@Pillow_Rainbow](https://twitter.com/Pillow_Rainbow)
+- Twitter：[@Cherishjuzi](https://twitter.com/Cherishjuzi)
 - Telegram：[@Pillow_Rainbow](https://t.me/Pillow_Rainbow)
 - Email：[xu.yuquan@outlook.com](mailto:xu.yuquan@outlook.com)
 - Blog：[https://zhiyuquan.top](https://zhiyuquan.top)
