@@ -2,7 +2,7 @@
 ====
 
 **<p align="center">用于记录自己CodingWay</p>**
-[![](https://gitee.com/xu-yuquan/picture-markdown/raw/master/index.jpg)](https://cherishyuan.github.io)
+[![]([https://gitee.com/xu-yuquan/picture-markdown/raw/master/index.jpg)](https://cherishyuan.github.io](https://s2.loli.net/2022/06/16/NRHTgrx1MpVZ87W.jpg))
 
 ## 联系方式
 - Twitter：[@Cherishjuzi](https://twitter.com/Cherishjuzi)
