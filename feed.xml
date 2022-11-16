@@ -1,5 +1,34 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-06-05T07:13:12.255649+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/3</id><title>Linux常用命令</title><updated>2022-06-05T07:13:12.412239+00:00</updated><content type="html"><![CDATA[<h1>关机/重启/注销</h1>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/cherishyuan/blog</id><title>RSS feed of cherishyuan's blog</title><updated>2022-11-16T11:46:25.992977+00:00</updated><author><name>cherishyuan</name><email>xu.yuquan@outlook.com</email></author><link href="https://github.com/cherishyuan/blog"/><link href="https://raw.githubusercontent.com/cherishyuan/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/cherishyuan/blog/issues/4</id><title>vim使用</title><updated>2022-11-16T11:46:26.235754+00:00</updated><content type="html"><![CDATA[<p>常用的插件：</p>
+<pre><code>&quot; 快速跳转
+Plug &#x27;easymotion/vim-easymotion&#x27;
+&quot; 模糊查找文件，buffer，tag等
+Plug &#x27;Yggdroot/LeaderF&#x27;
+&quot; 对齐代码的虚线，写Python尤其需要
+Plug &#x27;Yggdroot/indentLine&#x27;
+&quot; 用不同颜色高亮单词或选中块
+Plug &#x27;Yggdroot/vim-mark&#x27;
+&quot; grep 文本，用过ag.vim, ack.vim还有grepxxx等
+Plug &#x27;dyng/ctrlsf.vim&#x27;
+&quot;亮光标处单词在文件的所有位置,k激活                                             
+ Plug &#x27;lfv89/vim-interestingwords&#x27;
+&quot;彩虹括号                                                                      
+ Plug &#x27;luochen1990/rainbow&#x27; 
+</code></pre>
+<p>相关配置：</p>
+<pre><code> &quot;彩虹括号                                                                       
+ let g:rainbow_active = 1                                                        
+                                                                                
+ &quot;vim-interestingwords 插件配置                                                  
+ let g:interestingWordsGUIColors = [&#x27;#8CCBEA&#x27;, &#x27;#A4E57E&#x27;, &#x27;#FFDB72&#x27;, &#x27;#FF7272&#x27;, &#x27;    #FFB3FF&#x27;, &#x27;#9999FF&#x27;]                                                            
+ let g:interestingWordsTermColors = [&#x27;154&#x27;, &#x27;121&#x27;, &#x27;211&#x27;, &#x27;137&#x27;, &#x27;214&#x27;, &#x27;222&#x27;]   
+ let g:interestingWordsRandomiseColors = 1                                       
+                                                                              
+ &quot;indentline config                                                              
+let g:indentLine_setColors = 0                                                  
+let g:indentLine_char_list = [&#x27;|&#x27;, &#x27;¦&#x27;, &#x27;┆&#x27;, &#x27;┊&#x27;]  
+</code></pre>
+]]></content><link href="https://github.com/cherishyuan/blog/issues/4" rel="alternate"/><category term="vim"/><published>2022-11-16T11:44:21+00:00</published></entry><entry><id>https://github.com/cherishyuan/blog/issues/3</id><title>Linux常用命令</title><updated>2022-11-16T11:46:26.368782+00:00</updated><content type="html"><![CDATA[<h1>关机/重启/注销</h1>
 <table>
 <thead>
 <tr>
@@ -1101,7 +1130,7 @@
 ├── 📁 plugin
 ├── 📁 syntax
 └── 🇻 init.vim</p>
-]]></content><link href="https://github.com/cherishyuan/blog/issues/3" rel="alternate"/><category term="技术相关"/><published>2022-06-05T07:11:03+00:00</published></entry><entry><id>https://github.com/cherishyuan/blog/issues/2</id><title>Git、Tmux、vim快捷键</title><updated>2022-06-05T07:13:12.557185+00:00</updated><content type="html"><![CDATA[<h1>快捷键</h1>
+]]></content><link href="https://github.com/cherishyuan/blog/issues/3" rel="alternate"/><category term="技术相关"/><published>2022-06-05T07:11:03+00:00</published></entry><entry><id>https://github.com/cherishyuan/blog/issues/2</id><title>Git、Tmux、vim快捷键</title><updated>2022-11-16T11:46:26.529903+00:00</updated><content type="html"><![CDATA[<h1>快捷键</h1>
 <h2>git commit 图标使用 — emoji 指南</h2>
 <table>
 <thead>
@@ -1352,7 +1381,7 @@ git rm -r --cached .  #清除所有缓存 </p>
 <p>git commit -m 'update .gitignore' #从新提交</p>
 <p>git status 查看  则在.gitignore文件中新追加的想忽略的文件夹已经没有状态了
 使用过git rm -r --cached . 命令最终push到远程仓库后，远程仓库里的文件会一并删除</p>
-]]></content><link href="https://github.com/cherishyuan/blog/issues/2" rel="alternate"/><category term="技术相关"/><published>2022-03-28T11:10:20+00:00</published></entry><entry><id>https://github.com/cherishyuan/blog/issues/1</id><title>技术相关</title><updated>2022-06-05T07:13:12.663536+00:00</updated><content type="html"><![CDATA[<hr />
+]]></content><link href="https://github.com/cherishyuan/blog/issues/2" rel="alternate"/><category term="技术相关"/><published>2022-03-28T11:10:20+00:00</published></entry><entry><id>https://github.com/cherishyuan/blog/issues/1</id><title>技术相关</title><updated>2022-11-16T11:46:26.677166+00:00</updated><content type="html"><![CDATA[<hr />
 <p>这是一篇关于markdown中快速插入Emoji表情的语法速查表，以后写markdown想要插入emoji表情忘记语法了，可以快速查看。  </p>
 <h3>People</h3>
 <hr />
