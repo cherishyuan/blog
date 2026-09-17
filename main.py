@@ -3,7 +3,7 @@ import argparse
 import os
 
 from marko.ext.gfm import gfm as marko
-from github import Github
+from github import Auth, Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
@@ -53,7 +53,7 @@ def format_time(time):
 
 
 def login(token):
-    return Github(token)
+    return Github(auth=Auth.Token(token))
 
 
 def get_repo(user: Github, repo: str):
@@ -86,7 +86,7 @@ def get_repo_labels(repo):
 
 
 def get_issues_from_label(repo, label):
-    return repo.get_issues(labels=(label,))
+    return repo.get_issues(labels=[label])
 
 
 def add_issue_info(issue, md):
